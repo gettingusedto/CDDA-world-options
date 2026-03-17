@@ -1,0 +1,67 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "gut_tweaks_world",
+    "name": "World Settings",
+    "authors": [ "Getusedto" ],
+    "description": "World settings. Requires world reset.",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "CITY_SIZE",
+    "//": "City sizes. Higher number means larger cities. 0 disables cities.  Min: 0, Max: 16, Default: 8",
+    "stype": "int",
+    "value": 8
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "CITY_SPACING",
+    "//": "City spacing. Higher number means cities are further apart. Min: 0, Max: 8, Default: 4",
+    "stype": "int",
+    "value": 4
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "SPAWN_DENSITY",
+    "//": "Monster scaling spawn rate factor. Higher number means more monsters. Min: 0.1, Max: 50.0, Default: 1.0",
+    "stype": "float",
+    "value": 1.0
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "ITEM_SPAWNRATE",
+    "//": "Item spawn scaling factor. Higher numbers means more items. Min: 0.01, Max: 10.0, Default: 1.0",
+    "stype": "float",
+    "value": 1.0
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "NPC_SPAWNRATE",
+    "//": "Baseline average number of days between random NPC spawns. Higher Number means fewer NPCs. 0 to disable NPCs. Min: 0.01, Max: 100.0, Default: 4.0",
+    "stype": "float",
+    "value": 4.0
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "MONSTER_SPEED",
+    "//": "Monster movement rate. Higher numbers increases monster speed and lower reduces it. Represented in percent, e.g. 'value: 100' means 100%. Requires world reset. Min: 1, Max: 1000, Default: 100",
+    "stype": "int",
+    "value": 100
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "MONSTER_RESILIENCE",
+    "//": "Determines how much damage monsters can take. Higher numbers increases monster resilience and lower reduces it. Represented in percent, e.g. 'value: 100' means 100%. Requires world reset. Min: 1, Max: 1000, Default: 100",
+    "stype": "int",
+    "value": 100
+  },
+  {
+    "type": "EXTERNAL_OPTION",
+    "name": "EVOLUTION_INVERSE_MULTIPLIER",
+    "//": "A multiplier for the time between monster upgrades.  For example a value of 2.00 would cause evolution to occur at half speed.  Set to 0.00 to turn off monster upgrades. Min: 0.01, Max: 100, Default: 1.0.",
+    "stype": "float",
+    "value": 1.0
+  }
+]
