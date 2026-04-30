@@ -49,5 +49,14 @@
     "//": "A multiplier for the time between monster upgrades.  For example a value of 2.00 would cause evolution to occur at half speed.  Set to 0.00 to turn off monster upgrades. Min: 0.01, Max: 100, Default: 1.0.",
     "stype": "float",
     "value": 1.0
+  },
+  {
+    "type": "region_settings_city",
+    "id": "default",
+    "copy-from": "default",
+    "//": "City sizes. Higher number means larger cities. 0 disables cities.  Min: 0, Max: 16, Default: 8",
+    "city_size": 8,
+    "//2": "City spacing. Higher number means cities are further apart. Min: 0, Max: 8, Default: 4",
+    "city_spacing": 4
   }
 ]
